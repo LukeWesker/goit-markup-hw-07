@@ -20,7 +20,6 @@ html {
 }
 body {
     font-family: 'Roboto', sans-serif;
-    /* font-size: 14px; */
     letter-spacing: 0.03em;
     background-color: var(--primary-white-color);
     color: var(--primary-text-color) ;
@@ -905,12 +904,8 @@ color: rgba(117, 117, 117, 1);
 
 .footer-form-div {
     margin-left: auto;
-    /* justify-content: space-between; */
 }
 .svg-modal {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     padding-left: 3px;
     padding-top: 4px;
     margin-right: 9px;
@@ -947,9 +942,6 @@ text-align: left;
    color: rgba(33, 150, 243, 1);
 }
 .modal-form-icon {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     fill: var(--primary-white-color);
    
 }
