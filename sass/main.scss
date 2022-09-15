@@ -4,4 +4,15 @@
 @import './base/base';
 @import './base/section';
 @import './base/container';
+
 @import './components/modal-btn';
+@import './components/logo';
+@import './components/nav';
+@import './components/text.scss';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/team';
+@import './layout/work';
+@import './layout/portfolio';
+@import './layout/footer';
