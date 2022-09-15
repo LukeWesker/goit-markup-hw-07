@@ -117,21 +117,7 @@
     column-gap: 10px;
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
-    background-color: var(--acent-color);
-    transition: 250ms var(--timing-animation);
-}
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-    fill: var(--primary-white-color);
-    transition: 250ms var(--timing-animation);
-}
-.clients-block-link:hover .clients-block-icon,
-.clients-block-link:focus .clients-block-icon {
-    fill: var(--acent-color);
-    transition: 250ms var(--timing-animation);
-}
+
 .clients-block:hover,
 .clients-block:focus {
     border-color: var(--acent-color);

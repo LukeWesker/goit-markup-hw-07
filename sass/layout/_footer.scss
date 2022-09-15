@@ -45,3 +45,24 @@
 .footer-form-div {
     margin-left: auto;
 }
+.footer-links {
+    margin-left: 70px;
+}
+
+.link-margin:not(:last-child) {
+    margin-bottom: 9px;
+
+}
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--acent-color);
+    transition: 250ms var(--timing-animation);
+}
+.footer-input:checked {
+    border: none;
+}
+
+.box-web {
+    display: flex;
+    align-items: baseline;
+}

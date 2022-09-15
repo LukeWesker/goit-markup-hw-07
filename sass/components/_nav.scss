@@ -18,11 +18,7 @@ color: var(--primary-text-color);
     transition: 250ms var(--timing-animation);
 }
 
-.footer-address:hover,
-.footer-address:focus {
-    color: var(--acent-color);
-    transition: 250ms var(--timing-animation);
-}
+
 
 .address a
 {
@@ -67,3 +63,26 @@ color: var(--acent-color);
     margin-right: 10px;
     fill: currentColor;
     }
+
+    .address-link {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--primary-white-color);
+    }
+    
+    .address {
+        margin-left: auto;
+        padding-left: 0;
+    }
+    .text-address-bar {
+        color: var(--primary-white-color);
+        line-height: 16.41px;
+        font-size: 14px;
+        display: block;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        top: 50%;
+        left: 50%;
+    }
+  
