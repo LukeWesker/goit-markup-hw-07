@@ -27,8 +27,16 @@ button {
 ul {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
+
+    .link-hover &:hover, 
+    .link-hover &:focus 
+{
+    color: var(--acent-color);
+    transition: 250ms var(--timing-animation);
+}
 }
 
 html {

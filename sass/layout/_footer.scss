@@ -23,7 +23,14 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);  
     margin-left: auto;
+
+    &:hover,
+    &:focus {
+    color: var(--acent-color);
+    transition: 250ms var(--timing-animation);
 }
+}
+
 .footer-input {
     position: relative;
     width: 358px;
@@ -35,32 +42,23 @@
     cursor: pointer;
     background-color: transparent;
     color: var(--primary-white-color);
+
+    &:checked {
+        border: none;
+    }
 }
 
-.footer-input:checked {
-    border: none;
-}
+
 
 
 .footer-form-div {
     margin-left: auto;
 }
-.footer-links {
-    margin-left: 70px;
-}
 
 .link-margin:not(:last-child) {
     margin-bottom: 9px;
+}
 
-}
-.footer-address:hover,
-.footer-address:focus {
-    color: var(--acent-color);
-    transition: 250ms var(--timing-animation);
-}
-.footer-input:checked {
-    border: none;
-}
 
 .box-web {
     display: flex;
