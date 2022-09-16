@@ -536,16 +536,6 @@ html {
   color: var(--secondary-text-color);
 }
 
-.text-overlay {
-  display: block;
-  font-size: 18px;
-  line-height: 1.55;
-  letter-spacing: 0.03em;
-  padding-top: 63px;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
 .text-form {
   font-family: Roboto;
   font-size: 12px;
@@ -709,14 +699,11 @@ html {
   border-radius: 4px;
   transition: border-color 250ms var(--timing-animation);
 }
-
-.social-list-item:hover,
-.social-list-item:focus {
-  background-color: var(--acent-color);
+.clients-block:hover, .clients-block:focus {
+  border-color: var(--acent-color);
   transition: 250ms var(--timing-animation);
 }
 
-/*============================ icon ============================*/
 .social-list {
   display: flex;
   justify-content: center;
@@ -742,6 +729,10 @@ html {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
+.social-list-item:hover, .social-list-item:focus {
+  background-color: var(--acent-color);
+  transition: 250ms var(--timing-animation);
+}
 
 .social-list-icon {
   width: 20px;
@@ -759,12 +750,6 @@ html {
   display: flex;
   justify-content: center;
   column-gap: 10px;
-}
-
-.clients-block:hover,
-.clients-block:focus {
-  border-color: var(--acent-color);
-  transition: 250ms var(--timing-animation);
 }
 
 .caption-main {
@@ -896,6 +881,14 @@ html {
   background: var(--primary-white-color);
 }
 
+.text-overlay {
+  display: block;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  padding: 63px 24px 63px 24px;
+}
+
 .portfolio-text-block {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -933,8 +926,6 @@ html {
   height: 100%;
   color: var(--primary-white-color);
   background-color: rgba(33, 150, 243, 0.9);
-  padding: 10px;
-  line-height: 1, 2;
   overflow: auto;
   transform: translateY(100%);
   transition: transform 250ms linear;
@@ -973,6 +964,10 @@ html {
   color: rgba(255, 255, 255, 0.6);
   margin-left: auto;
 }
+.footer-address:hover, .footer-address:focus {
+  color: var(--acent-color);
+  transition: 250ms var(--timing-animation);
+}
 
 .footer-input {
   position: relative;
@@ -986,7 +981,6 @@ html {
   background-color: transparent;
   color: var(--primary-white-color);
 }
-
 .footer-input:checked {
   border: none;
 }
@@ -995,22 +989,8 @@ html {
   margin-left: auto;
 }
 
-.footer-links {
-  margin-left: 70px;
-}
-
 .link-margin:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.footer-address:hover,
-.footer-address:focus {
-  color: var(--acent-color);
-  transition: 250ms var(--timing-animation);
-}
-
-.footer-input:checked {
-  border: none;
 }
 
 .box-web {

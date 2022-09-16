@@ -14,9 +14,10 @@
     font-size: 18px;
     line-height: 1.55;
     letter-spacing: 0.03em;
-    padding-top: 63px;
-    padding-left: 24px;
-    padding-right: 24px;
+    // padding-top: 63px;
+    // padding-left: 24px;
+    // padding-right: 24px;
+    padding: 63px 24px 63px 24px ;
 }
 
 .portfolio-text-block {
@@ -56,8 +57,6 @@
     height: 100%;
     color: var(--primary-white-color);
     background-color: rgba(33, 150, 243, 0.9);
-    padding: 10px;
-    line-height: 1,2;
     overflow: auto;
     transform: translateY(100%);
     transition: transform 250ms linear;
