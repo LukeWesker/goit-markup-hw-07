@@ -40,14 +40,16 @@
     padding-left: 42px;
     transition: 250ms var(--timing-animation);
     cursor: pointer;
+
+    &:focus {
+        outline: none;
+        border-color: var(--acent-color);
+    }
+    &:focus +.icon-position {
+        fill: var(--acent-color);
+    }
 }
-.modal-input:focus {
-    outline: none;
-    border-color: var(--acent-color);
-}
-.modal-input:focus +.icon-position {
-    fill: var(--acent-color);
-}
+
 .modal-form {
     display: flex;
     flex-direction: column;
@@ -70,6 +72,15 @@
 }
 .checkbox {
     position: absolute;
+
+    &:checked + .svg-modal {
+        background-color: var(--acent-color);
+        border: none;
+    }
+    &:checked + .svg-modal .modal-form-own-checkbox {
+       border: none;
+       display: block;
+    }
 }
 .modal-form-own-checkbox {
    display: none;
@@ -78,14 +89,7 @@
     fill: var(--primary-white-color);
    
 }
-.checkbox:checked + .svg-modal {
-    background-color: var(--acent-color);
-    border: none;
-}
-.checkbox:checked + .svg-modal .modal-form-own-checkbox {
-   border: none;
-   display: block;
-}
+
 .documents {
     font-family: Roboto;
     font-size: 14px;
@@ -145,20 +149,22 @@
         line-height: 14px;
         letter-spacing: 0.01em;
         text-align: left;
+
+        &:focus {
+            outline: none;
+            border-color: var(--acent-color);
+        }
+        &::placeholder {
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            color: rgba(117, 117, 117, 0.5)    
+        }
     }
-    .contact-form-message:focus {
-        outline: none;
-        border-color: var(--acent-color);
-    }
-    .contact-form-message::placeholder {
-        font-family: Roboto;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 14px;
-        letter-spacing: 0.01em;
-        text-align: left;
-        color: rgba(117, 117, 117, 0.5)    
-    }
+
     .form {
         display: inline-block;
     }

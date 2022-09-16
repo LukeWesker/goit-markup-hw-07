@@ -15,12 +15,14 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 1px solid transparent;
-}
-.modal-button:hover,
-.modal-button:focus {
+
+    &:hover,
+    &:focus {
     background-color: var(--button-main-color);
     transition: 250ms var(--timing-animation);
 }
+}
+
 .active-button {
     font-family: 'Roboto';
     font-weight: 500;
@@ -35,7 +37,15 @@
     background: var(--secondary-bg-color);
     border-radius: 4px;
     border: 1px solid transparent;
+
+    &:hover,
+    &:focus {
+    background-color: var(--acent-color);
+    color: var(--primary-white-color);
+    transition: 250ms var(--timing-animation);
     }
+    }
+
 .button-portfolio:hover ,
 .button-portfolio:focus {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
@@ -44,12 +54,7 @@
     transition: 250ms var(--timing-animation);
 }
 
-.active-button:hover,
-.active-button:focus {
-    background-color: var(--acent-color);
-    color: var(--primary-white-color);
-    transition: 250ms var(--timing-animation);
-}
+
 .button-nav {
     display: flex;
     gap: 8px;
@@ -80,12 +85,13 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 1px solid transparent;
-}
-.modal-button-data:hover,
-.modal-button-data:focus {
+    &:hover,
+    &:focus {
     background-color: var(--button-main-color);
     transition: 250ms var(--timing-animation);
-}
+    }
+    }
+
 .modal-close-btn {
     position: absolute;
     top: 8px;
@@ -121,13 +127,15 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 1px solid transparent;
-}
 
-.button-foot-submit:hover,
-.button-foot-submit:focus {
+    &:hover,
+    &:focus {
     background-color: var(--button-main-color);
     transition: 250ms var(--timing-animation);
-}
+    }
+    }
+
+
 .telegram-icon {
    margin-left: 10px;
 }
