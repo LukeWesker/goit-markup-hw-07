@@ -314,7 +314,7 @@ html {
   padding-left: 0;
 }
 
-.text-address-bar {
+.work-list__text {
   color: var(--primary-white-color);
   line-height: 16.41px;
   font-size: 14px;
@@ -516,8 +516,8 @@ html {
   transition: 250ms var(--timing-animation);
 }
 
-.clients-block-link:hover .clients-block-icon,
-.clients-block-link:focus .clients-block-icon {
+.clients-block__link:hover .clients-block__icon,
+.clients-block__link:focus .clients-block__icon {
   fill: var(--acent-color);
   transition: 250ms var(--timing-animation);
 }
@@ -677,7 +677,7 @@ html {
   gap: 30px;
 }
 
-.clients-block-link {
+.clients-block__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -850,11 +850,11 @@ html {
   justify-content: center;
 }
 
-.work-list-img {
+.work-list__img {
   position: relative;
 }
 
-.work-list-bar {
+.work-list__bar {
   display: flex;
   position: absolute;
   justify-content: center;
