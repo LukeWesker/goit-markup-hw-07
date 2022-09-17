@@ -1,8 +1,8 @@
-.site-nav a
+.page-navigation a
 {
 color: var(--primary-text-color);
 }
-.site-nav {
+.page-navigation {
     display: flex;
 }
 .site-address {
@@ -35,7 +35,7 @@ color: var(--primary-text-color);
     margin-bottom: 20px;
 }
 
-.menu-address .link {
+.site-address__item .link {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -46,18 +46,18 @@ color: var(--primary-text-color);
     padding-left: auto; 
 
 }
-.site-nav .link.current {
+.page-navigation .link.current {
 color: var(--acent-color);
 }
 .site-address a 
 { color: var(--secondary-text-color);}
 
-.nav-link {
+.site-address__link {
     display: flex;
     align-items: center;
     color: #757575;  
 }
-.address-link-icon {
+.site-address__icon {
     width: 16px;
     height: 12px;
     margin-right: 10px;

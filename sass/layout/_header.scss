@@ -1,4 +1,4 @@
-.menu-item {
+.menu__item {
     display: flex;
     position: relative;
     color: var(--primary-text-color);
@@ -10,7 +10,7 @@
     margin-left: auto;
 
 }
-.menu-item .link {
+.menu__item .link {
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -20,7 +20,7 @@
     padding-top: 200px;
     padding-bottom: 200px;
 }
-.page-header-container {
+.menu {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -28,7 +28,7 @@
 .page-header-bg {
     background-color: var(--primary-white-color);
 }
-.header-link::after {
+.menu__header-link::after {
     content: '';
     position: absolute;
    bottom: -1px;
@@ -42,7 +42,7 @@
 .head-header {
     border-bottom: 1px solid #ECECEC;
 }
-.smartphone-link-icon {
+.site-address__icon2 {
     width: 10px;
     height: 16px;
     margin-right: 10px;
