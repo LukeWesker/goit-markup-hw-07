@@ -275,7 +275,7 @@ html {
   padding-bottom: 32px;
 }
 
-.site-address-foot {
+.footer__address {
   display: inline-block;
   margin-left: auto;
   padding-left: auto;
@@ -938,7 +938,7 @@ html {
   margin-left: 70px;
 }
 
-.logo-footer {
+.footer__logo {
   margin-left: auto;
   padding-inline-start: 0;
   margin-bottom: 20px;
@@ -989,7 +989,7 @@ html {
   margin-left: auto;
 }
 
-.link-margin:not(:last-child) {
+.footer__link:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -998,7 +998,7 @@ html {
   align-items: baseline;
 }
 
-.main-flex {
+.skills {
   display: flex;
   column-gap: 30px;
   justify-content: center;
